@@ -74,9 +74,6 @@ td {
 <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
 </head>
 <body>
-	<?php
-	echo date("h:i:s");
-	?>
 	<div id="header">
 		<ul>
 		<li><a class="active" href="#">About Me</a></li>
@@ -96,14 +93,13 @@ td {
 				<p>Hello</br>I’m Cosmos Opurum</br>Digital Marketer and Web  Developer.</br>
 				The</br>
 				Current Time</br> 
-				is</p>
-				<div>
+				is
 					<?php
 					date_default_timezone_set("Africa/Lagos");
-					print date("h:i:sa");
+					print date("h:ia");
 					?>
-				</div>
-			</td>
+				</p>
+            </td>
 			<td></td>
 		</tr>
 	</table>
